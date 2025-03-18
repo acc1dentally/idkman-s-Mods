@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\recipes</Name>
+  <Entries>
+    <Entry>
+      <ID>997000901</ID>
+      <DefaultText>Conqueror of Illyria</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>997000902</ID>
+      <DefaultText>Superenchanted Ammunition</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>997000903</ID>
+      <DefaultText>Scent of Jasmin and Lilac</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>
