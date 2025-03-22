@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\statuseffects</Name>
+  <Entries>
+    <Entry>
+      <ID>999000899</ID>
+      <DefaultText>Hits with this weapon have a {0:value:percent} chance to cast &lt;link="gamedata://1bdb4d61-9c7f-4324-b287-62a4ba329f93"&gt;Arkemyr's Dazzling Lights&lt;/link&gt; on their target</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>999000898</ID>
+      <DefaultText>Grants +3 Metaphysics</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>999000897</ID>
+      <DefaultText>Grants +3 Arcana</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>999000896</ID>
+      <DefaultText>{0:value:percentbonus} weapon Damage (Increases with Metaphysics skill)</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>999000895</ID>
+      <DefaultText>Fires three shots before needing to reload, but reloading is slower. Hits with this weapon have a {0:value:percent} chance to Crit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>999000894</ID>
+      <DefaultText>{0:value:percentbonus} Crit Chance (Increases with Metaphysics skill)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>999000893</ID>
+      <DefaultText>{0:value:percent} chance to Recover instantly on scoring a Crit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>999000892</ID>
+      <DefaultText>Lost in the In-Between, Evelyn seeks to reclaim her birthright. Crits with this weapon have a {0:value:percent} chance to cast &lt;link="gamedata://cccff3fb-ff5b-4e64-9e0c-55c2dda1e23b"&gt;Chain Lightning&lt;/link&gt;</DefaultText>
+      <FemaleText />
+    </Entry>	
+    <Entry>
+      <ID>999000891</ID>
+      <DefaultText>{0:value} All Defenses except Deflection (Increases with the Diplomacy skill)</DefaultText>
+      <FemaleText />
+    </Entry>	
+    <Entry>
+      <ID>999000890</ID>
+      <DefaultText>{0:value} Might until the end of combat on scoring a Hit (Stacks 5 times)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>999000889</ID>
+      <DefaultText>{0:value} Might until the end of combat on scoring a Hit (Stacks 10 times)</DefaultText>
+      <FemaleText />
+    </Entry>	
+  </Entries>  
+</StringTableFile>

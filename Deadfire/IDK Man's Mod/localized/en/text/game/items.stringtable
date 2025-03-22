@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\items</Name>
+  <Entries>
+    <Entry>
+      <ID>927048380</ID>
+      <DefaultText>Requiem</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>927048381</ID>
+      <DefaultText>Commissioned by Lady Isolde vi Aldwyn, a fading Aedyr matriarch, this pistol was meant to embolden her daughter Evelyne during her voyages across the Deadfire. The task fell to Magister Theodan vi Corthal, an animancer infamous for his unorthodox fusion of Adra and explosives. Yet Theodan, consumed by visions of a weapon that could "sing with the Wheel’s own breath," descended into obsession. He grafted slivers of luminous Adra into the barrel, each etched with sigils to siphon the essence of storms—and souls. Years slipped by; Isolde died awaiting completion, her final whispers lost to the same winds her daughter braved. Evelyne, now heir to a hollow fortune, demanded the pistol with a tyrant’s zeal, unaware Theodan’s designs had strayed from artistry into sacrament.
+
+Theodan’s "perfected" schematics were an abomination even by Aedyr’s permissive standards. The Adra shards, attuned to Evelyne’s soulmark, were meant to bind her spirit to the weapon upon death—a grotesque insurance against mortality. When Evelyne vanished in a squall off the Shattered Shoals, the pistol’s trigger grew warm to the touch, its chamber humming with a dirge only Theodan could hear. He died days later, his workshop a tableau of horror: walls scrawled with frantic calculations, his own veins threaded with Adra dust as if he’d tried to become the artifact. Investigators noted his corpse bore no wounds, only a smile—and a single, storm-blackened bullet clutched in his fist.
+
+The firearm vanished thereafter, though sailors tell of a gun’s echo crackling through tempests, its shots ringing with the timbre of a woman’s laughter. Scholars posit the Adra matrix now pulls stray souls into its bore, each discharge scattering fragments of the Wheel’s flow like shrapnel. To wield it is to court calamity: storms dog the bearer’s steps, and the trigger finger ages decades with each pull. Yet rumors persist that the pistol’s true power lies dormant, waiting for a soul audacious enough to channel its cursed symphony—a requiem not just for Evelyne, but for the fraying boundary between life and the In-Between.
+
+</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>927048382</ID>
+      <DefaultText>The Doom of Illyria</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>927048383</ID>
+      <DefaultText>Forged by Archmagister Althera vi Illyria, the ceremonial blade was a masterpiece of Vailian animancy, its core a lattice of soul-forged Adra meant to channel the Wheel’s currents. Althera intended it as a guardian’s symbol, its edge sharpened by Illyria’s famed storm-harnessing engines. Yet when she perished in a shipwreck during a tempest—rumored to be the kithless work of envious rivals—the blade sank into the Darkest Depths. It resurfaced clutched in the hands of her unnamed apprentice, who, guided by the Adra’s whisper, saw not a tool of protection, but a key to unravel the cycle of souls. The sword’s hunger mirrored his ambition: a void where Althera’s compassion once lingered, now replaced by the cold calculus of dominion.
+
+The apprentice’s ascent was meteoric. With each duel against Illyria’s liege lords—Lord Marcello, the Stormwarden, and Lady Serafina, the Tide’s Voice—he bent their souls into the blade via Adra rituals, grafting their mastery of wind and wave into its edge. The Wheel itself frayed at these acts; the lords’ spirits, trapped in eternal servitude, screamed across the In-Between. The sword grew heavier with stolen legacies, its edge crackling with tempests, its pommel weeping brine. By the time Illyria’s council knelt, the island’s Adra veins pulsed in dissonance, their natural harmony corrupted by the weapon’s ravenous core.
+
+Illyria’s fall was written in the language of drowned souls. In his final ritual, the apprentice channeled the blade’s accumulated power to pierce the boundary between Eora and the Wheel, seeking to command the storms that once guarded his home. Instead, the Adra network recoiled. The seas erupted, swallowing spires and soul-smiths alike, as if the world sought to purge the imbalance. Illyria vanished, its ruins drowned beneath a perpetual maelstrom—a testament to the peril of twisting the Wheel’s design. The Doom remains, a relic washed ashore in Deadfire’s darkest corners, its Adra core still humming with the trapped cries of a nation that dared defy nature’s ledger.
+
+</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>927048384</ID>
+      <DefaultText>Forgotten Caress</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>927048385</ID>
+      <DefaultText>Wearing this once-opulent cloak, a profound sadness washes over you. Whoever this cloak belonged to, must have had a very powerful benefactor. Woven in its threads lies the deepest affection and the void of heartbreak, and an undeniable shade of vindictiveness. But amidst the waves of melancholy, you see an unshakeable truth - the path to forgiveness is long and arduous, but all the more rewarding.</DefaultText>
+      <FemaleText />
+    </Entry>		
+  </Entries>
+</StringTableFile>
