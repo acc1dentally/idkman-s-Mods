@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cff1c1fb-617e-43ff-b217-62d9a0470ab2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_IvarsLastHope" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bc4a1eb6-dd53-40ee-b720-09991b0c1833" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fb4ab980-7a47-45fc-8541-16b53693cbd0" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d10+2" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="1.5" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(3);WeaponProperty(Magical)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_OpeningAttack);UnlockSpell(Rush_SpringAttack);" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_IvarsLastHope_Passive_FreehandCaster;MAG_IvarsLastHope_Passive_SoulwovenSpell;MAG_IvarsLastHope_Passive_Duelling;MAG_IvarsLastHope_Passive_MelancholicEcho;" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PassivesMainHand" type="StringTableFieldDefinition" value="MAG_IvarsLastHope_Passive_FinalStand" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_UNI_MistyStep_NightWalkers)" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Magical;Finesse;Versatile" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Longswords;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

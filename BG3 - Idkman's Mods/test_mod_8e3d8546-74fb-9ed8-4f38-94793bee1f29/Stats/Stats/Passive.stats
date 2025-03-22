@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="573af734-5895-4fac-99b2-bde6c018e485" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_IvarsLastHope_Passive_SoulwovenSpell" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hca30514ege720gbffeg0e56gd77aa0148936" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5cce9868g45e8g16a1gb078g2b96c9a48721" version="9" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00e35fec-5cc1-4176-a751-3c8132d40da8" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="IsOffHandSlotEmpty()" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,1,2);Ability(Dexterity,1);Ability(Intelligence,1);RollBonus(MeleeSpellAttack, 2);RollBonus(RangedSpellAttack, 2);IF(IsWeaponAttack()):CharacterWeaponDamage(max(0,SpellCastingAbilityModifier))" />
+        <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bc666c7a-0f73-4631-81f9-58741147de60" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_IvarsLastHope_Passive_FreehandCaster" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h037266eeg7b7dgde22g5149g9cedd1b9feda" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hffb680dagaea1g27aeg903fgbdbdaea608e4" version="5" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Temporary;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="IsOffHandSlotEmpty();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MAG_IvarsLastHope_Status_FreehandCaster)" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3545c2ba-eede-464c-8521-bcc2146ccee1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_Bombardement_ProjectileStrike" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="EnabledContext" type="EnumerationListTableFieldDefinition" value="OnCastResolved;OnActionResourcesChanged;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsSpell() and HasStatus('MAG_IvarsLastHope_Status_FreehandCaster', context.Source)" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(MAG_IvarsLastHope_Status_FreehandCaster, 100, -1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MAG_IvarsLastHope_Status_FreehandCaster)" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e82e2226-39d4-488a-980d-369dbc9a7511" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_IvarsLastHope_Passive_Duelling" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7896c9c1ge0d2g107bgd667g486cacda7819" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc469aa43ge56ag880eg12fbgcdd51bf0cf26" version="4" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="IsOffHandSlotEmpty()" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ReduceCriticalAttackThreshold(2);UnlockInterrupt(Interrupt_TheClover_TrueStrike_Riposte);AC(3);Ability(Strength,2)RollBonus(Attack,2);Proficiency(Longswords)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56a3ebce-137c-40ec-90bc-aa5c8c2bf544" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_IvarsLastHope_Passive_FinalStand" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d01b6d0ge683g05begf8e2g44a0f910388c" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb21e37e4g9f08g9372g6b84ge1816393d7ab" version="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,1)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged;OnHealed;OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasHPPercentageEqualOrLessThan(50, context.Target) and not HasStatus('MAG_BONUS_ACTION')):ApplyStatus(MAG_BONUS_ACTION,100,-1);IF(HasHPPercentageMoreThan(50, context.Target)):RemoveStatus(MAG_BONUS_ACTION);IF(HasHPPercentageEqualOrLessThan(50, context.Target)):Initiative(2)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8932a030-467b-4b6c-a5fa-d8a13951f6f0" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_IvarsLastHope_Passive_MelancholicEcho" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4345e5dbg4ef8g4c9dgfd8ag432503eb8d93" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7ef49ef5g594dg8376gf28eg609c3e54b39e" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnStatusRemove" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(not context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and IsSpell() and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and TurnBased(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased())" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasAnyExtraAttack(context.Source) and not context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(SELF,EXTRA_ATTACK_Q,100,1);IF(not HasAnyExtraAttack(context.Source) and not context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(SELF,EXTRA_ATTACK,100,1);IF(HasAnyExtraAttack(context.Target) and context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK_Q,100,1);IF(not HasAnyExtraAttack(context.Target) and context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(EXTRA_ATTACK,100,1)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
