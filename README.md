@@ -7,11 +7,9 @@ A hub for all the mods I've made for various games.
 **1. Sword - The Doom of Illyria**
 
    
-      Despoiler of Illyria: 35% chance to recover instantly on attacking, +15 deflection
+      Despoiler of Illyria: 35% chance to recover instantly on attacking
    
-        Upgrade: Conqueror of Illyria: 75% chance to recover instantly on attacking, +25 deflection
-
-      Runed Riposte: Counterattack enemy when missed in melee
+        Upgrade: Conqueror of Illyria: 75% chance to recover instantly on attacking
 
       Arcane Surge: +3 to Metaphysics, Arcana. +25% action speed with spells
 
