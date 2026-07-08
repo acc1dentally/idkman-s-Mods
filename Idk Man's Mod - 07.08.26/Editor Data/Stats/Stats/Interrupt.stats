@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c496009d-a970-44a3-b882-7ed3364dc271">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="499e0389-6ffe-4e4e-8cd6-2eb5e97d09d2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Ivar_Parry_override" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="493ec5bb-f3c5-49a3-b25c-d6bda949c4f9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hddd558fbg3e12g0dfdg60e2g7e47b97aedd4" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and IsAttack() and not HasSpellFlag(SpellFlags.Spell) and HasDamageEffectFlag(DamageFlags.Hit) and not HasStatus('SG_Prone');" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="IsWeaponOfProficiencyGroup('Longswords', GetActiveWeapon());" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(-3);ApplyStatus(OBSERVER_OBSERVER,PARRIED_Ivar,100,1);RemoveStatus(OBSERVER_OBSERVER, PARRY_Ivar);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad3d9247-2220-48e2-8fd5-c9fb3ae623e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_LegendaryEvasion_Protection_override" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3bb996b3-0588-4e04-893a-c4ce8a35f811" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsCritical() and IsAbleToReact(context.Observer) and HasInterruptedAttack() and Enemy(context.Source,context.Observer) and not Self(context.Target, context.Observer);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;Interrupt_LegendaryEvasion_Protection_override:1;" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4896cc62-6cec-40f6-a216-23d0ba80f283" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_DivineAllegiance_Laezel" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f46efa85-9c86-415e-906d-a96f5352ba05" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8067328cgf060gec81g2ee1g35d43b922934" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);RegainHitPoints(2*ClassLevel(Fighter));DealDamage(2*ClassLevel(Fighter), Radiant)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_UnarmoredDefence" />
+        <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(OBSERVER_TARGET,Target_DivineAllegiance_Laezel,true,true,true,eaad98ec-026b-429e-aa24-8274dfd1ecb7);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
