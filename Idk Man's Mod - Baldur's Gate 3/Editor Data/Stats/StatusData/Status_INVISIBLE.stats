@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="47014da6-a81c-40a9-9f3c-4a74b6ddc574">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bcc1cf0e-e97c-4fd9-84eb-dea0bc95ad76" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOAK_OF_SHADOWS_MONK_override" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="87589ebf-36fd-4124-8c57-c405b7e841de" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e705abfgf336g313egb84fg23d5b1b959a7" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5a12e349gc2f3gd835gac82g34b5252f0525" version="1" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast;OnDamage;OnEntityDrop;OnEntityPickUp;OnEntityDrag" enumeration_type_name="StatusEvent" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsStatusEvent(StatusEvent.OnSpellCast) and not HasSpellFlag(SpellFlags.Invisible)) or (IsStatusEvent(StatusEvent.OnDamage) and TotalDamageDoneGreaterThan(0)) or (IsStatusEvent(StatusEvent.OnSpellCast) and not HasSpellFlag(SpellFlags.Invisible)) or (IsStatusEvent(StatusEvent.OnDamage) and TotalDamageDoneGreaterThan(0)) or (not IsStatusEvent(StatusEvent.OnSpellCast) and not IsStatusEvent(StatusEvent.OnDamage) and not IsStatusEvent(StatusEvent.OnSpellCast))" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
